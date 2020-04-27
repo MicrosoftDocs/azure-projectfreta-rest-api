@@ -1,7 +1,9 @@
 {
-  "repo": [{
-    "url": "{swagger_repo}",
-    "branch": "{swagger_repo_branch}",
-    "name": "{local_swagger_src_folder}"
-  }]
+  "repo": [
+  {
+         "url":"https://github.com/microsoft/project-freta",
+         "branch":"master",
+         "name":"project-freta"
+      }
+  ]
 }

@@ -1,21 +1,20 @@
 {
-  "target_api_root_dir": "structured",
-  "enable_markdown_fragment": true,
-  "markdown_fragment_folder": "authored",
-  "use_yaml_toc": true,
-  "formalize_url": true,
+  "target_api_root_dir": "docs-ref-autogen",
+  "is_operation_level": true,
+  "use_yaml_schema": true,
+  "use_service_url_group": true,
   "is_grouped_by_tag": true,
-  "version_list": ["default"],
+  "remove_tag_from_operationId": true,
   "organizations": [{
-    "index": "index.md",
-    "default_toc_title": "Getting Started",
-    "version": "default",
-    "services": [{
-      "toc_title": "{service_toc_title}",
-      "url_group": "{service_url}",
-      "swagger_files": [{
-        "source": "{local_swagger_src_folder}/{swagger_path}"
+      "services": [{
+          "toc_title": "Azure Project Freta",
+          "url_group": "project-freta",
+          "service_index": "index.md",
+          "swagger_files": [
+            {
+              "source": "project-freta/extra/swagger.json"
+            }
+          ]
       }]
-    }]
   }]
 }
