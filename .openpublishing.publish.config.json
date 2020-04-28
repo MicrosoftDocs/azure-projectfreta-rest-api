@@ -1,9 +1,9 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "azure-projectfreta-rest",
+      "docset_name": "azureprojectfreta",
       "build_source_folder": ".",
-      "build_output_subfolder": "azure-projectfreta-rest",
+      "build_output_subfolder": "azureprojectfreta",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
