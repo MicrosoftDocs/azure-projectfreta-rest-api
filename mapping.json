@@ -3,7 +3,7 @@
   "is_operation_level": true,
   "use_yaml_schema": true,
   "use_service_url_group": true,
-  "is_grouped_by_tag": true,
+  "is_grouped_by_tag": false,
   "remove_tag_from_operationId": true,
   "organizations": [{
       "services": [{
