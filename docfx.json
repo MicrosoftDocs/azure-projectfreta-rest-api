@@ -39,7 +39,7 @@
       "_mockServerAuthorization": "Bearer {token:https://graph.windows.net/}",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "rest_product": "azure-projectfreta",
-      "titleSuffix": "Azure ProjectFreta Rest Api",
+      "titleSuffix": "Azure ProjectFreta Rest API",
       "author": "v-jutao",
       "ms.author": "v-jutao",
       "ms.topic": "reference",
