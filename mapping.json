@@ -11,7 +11,10 @@
           "service_index": "index.md",
           "swagger_files": [
             {
-              "source": "project-freta/extra/swagger.json"
+              "source": "project-freta/extra/swagger.json",
+			  "operation_group_mapping": {
+              "freta": "freta (test)"
+			  }
             }
           ]
       }]
