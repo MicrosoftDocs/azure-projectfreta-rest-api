@@ -13,7 +13,7 @@
             {
               "source": "project-freta/extra/swagger.json",
 			  "operation_group_mapping": {
-              "freta": "freta (test)"
+              "original_operation_group": "freta (test)"
 			  }
             }
           ]
