@@ -1,0 +1,36 @@
+### YamlMime:RESTOperation
+uid: freta.azure-api.net.freta.0.0.1.project-freta.image.updatesettings
+name: update Settings
+service: Azure Project Freta
+groupName: Image
+apiVersion: 0.0.1
+summary: Update an image settings
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+- content: PATCH https://freta.azure-api.net/freta/0.0.1/get_image
+uriParameters: []
+responses:
+- name: 200 OK
+  description: Update successful
+- name: Other Status Codes
+  description: INVALID_REQUEST
+- name: Other Status Codes
+  description: INVALID_PERMISSION
+- name: Other Status Codes
+  description: MISSING_EULA_AGREEMENT
+- name: Other Status Codes
+  description: INVALID_IMAGE
+requestHeader: []
+definitions: []
+examples: []
+security:
+- name: oauth2Project Freta
+  type: oauth2
+  flow: accessCode
+  authorizationUrl: https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize
+  tokenUrl: https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/token
+  scopes: []
+errorCodes: []

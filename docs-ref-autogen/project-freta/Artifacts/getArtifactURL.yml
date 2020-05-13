@@ -1,0 +1,40 @@
+### YamlMime:RESTOperation
+uid: freta.azure-api.net.freta.0.0.1.project-freta.artifacts.getartifacturl
+name: get Artifact URL
+service: Azure Project Freta
+groupName: Artifacts
+apiVersion: 0.0.1
+summary: "List Artifacts  \nGet Artifact URL"
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+- content: POST https://freta.azure-api.net/freta/0.0.1/list_artifacts
+uriParameters: []
+responses:
+- name: 200 OK
+  description: URL to the artifact
+- name: Other Status Codes
+  description: INVALID_REQUEST
+- name: Other Status Codes
+  description: INVALID_PERMISSION
+- name: Other Status Codes
+  description: MISSING_EULA_AGREEMENT
+- name: Other Status Codes
+  description: INVALID_IMAGE
+- name: Other Status Codes
+  description: ANALYSIS_NOT_COMPLETE
+- name: Other Status Codes
+  description: INVALID_ARTIFACT
+requestHeader: []
+definitions: []
+examples: []
+security:
+- name: oauth2Project Freta
+  type: oauth2
+  flow: accessCode
+  authorizationUrl: https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize
+  tokenUrl: https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/token
+  scopes: []
+errorCodes: []

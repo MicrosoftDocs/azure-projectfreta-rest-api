@@ -1,0 +1,34 @@
+### YamlMime:RESTOperation
+uid: freta.azure-api.net.freta.0.0.1.project-freta.image.delete
+name: Delete
+service: Azure Project Freta
+groupName: Image
+apiVersion: 0.0.1
+summary: Delete an image
+consumes:
+- application/json
+paths:
+- content: POST https://freta.azure-api.net/freta/0.0.1/delete_image
+uriParameters: []
+responses:
+- name: 200 OK
+  description: Deletion completed
+- name: Other Status Codes
+  description: INVALID_REQUEST
+- name: Other Status Codes
+  description: INVALID_PERMISSION
+- name: Other Status Codes
+  description: MISSING_EULA_AGREEMENT
+- name: Other Status Codes
+  description: INVALID_IMAGE
+requestHeader: []
+definitions: []
+examples: []
+security:
+- name: oauth2Project Freta
+  type: oauth2
+  flow: accessCode
+  authorizationUrl: https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize
+  tokenUrl: https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/token
+  scopes: []
+errorCodes: []

@@ -1,0 +1,32 @@
+### YamlMime:RESTOperation
+uid: freta.azure-api.net.freta.0.0.1.project-freta.search.listfilters
+name: list Filters
+service: Azure Project Freta
+groupName: Search
+apiVersion: 0.0.1
+summary: List search filters
+produces:
+- application/json
+paths:
+- content: GET https://freta.azure-api.net/freta/0.0.1/search_filters
+uriParameters: []
+responses:
+- name: 200 OK
+  description: List of available search filter
+- name: Other Status Codes
+  description: INVALID_REQUEST
+- name: Other Status Codes
+  description: INVALID_PERMISSION
+- name: Other Status Codes
+  description: MISSING_EULA_AGREEMENT
+requestHeader: []
+definitions: []
+examples: []
+security:
+- name: oauth2Project Freta
+  type: oauth2
+  flow: accessCode
+  authorizationUrl: https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize
+  tokenUrl: https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/token
+  scopes: []
+errorCodes: []

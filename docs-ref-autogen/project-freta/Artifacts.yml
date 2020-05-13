@@ -1,0 +1,8 @@
+### YamlMime:RESTOperationGroup
+uid: freta.azure-api.net.freta.0.0.1.project-freta.artifacts
+name: Artifacts
+apiVersion: 0.0.1
+service: Azure Project Freta
+operations:
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.artifacts.getartifacturl
+  summary: "List Artifacts  \nGet Artifact URL"

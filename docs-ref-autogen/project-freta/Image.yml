@@ -1,0 +1,20 @@
+### YamlMime:RESTOperationGroup
+uid: freta.azure-api.net.freta.0.0.1.project-freta.image
+name: Image
+apiVersion: 0.0.1
+service: Azure Project Freta
+operations:
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.analyze
+  summary: Analyze an image
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.cancelanalysis
+  summary: Cancel Analysis of an Image
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.delete
+  summary: Delete an image
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.getdetails
+  summary: Get Image details
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.getformats
+  summary: Get image formats
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.listimages
+  summary: List Images
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.updatesettings
+  summary: Update an image settings

@@ -1,0 +1,12 @@
+### YamlMime:RESTOperationGroup
+uid: freta.azure-api.net.freta.0.0.1.project-freta.preferences
+name: Preferences
+apiVersion: 0.0.1
+service: Azure Project Freta
+operations:
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.preferences.deletepreferences
+  summary: "Delete the specified preference for the current user  \nDelete preference"
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.preferences.getuserpreferences
+  summary: Get User Preferences
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.preferences.updateuserpreferences
+  summary: Update User Preferences
