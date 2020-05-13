@@ -1,0 +1,90 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.0.1",
+    "title": "freta"
+  },
+  "host": "freta.azure-api.net",
+  "basePath": "/freta/0.0.1",
+  "schemes": [
+    "https"
+  ],
+  "securityDefinitions": {
+    "oauth2Project Freta": {
+      "type": "oauth2",
+      "scopes": {},
+      "flow": "accessCode",
+      "authorizationUrl": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize",
+      "tokenUrl": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/token"
+    }
+  },
+  "security": [
+    {
+      "oauth2Project Freta": []
+    }
+  ],
+  "paths": {
+    "/user_prefs": {
+      "get": {
+        "description": "Get User Preferences",
+        "operationId": "getUserPreferences",
+        "summary": "Get User Preferences",
+        "responses": {
+          "200": {
+            "description": "List of current users's preferences",
+            "examples": {
+              "application/json": "[{\"Timestamp\": \"2019-06-26 20:22:16\", \"key\": \"PREF_NAME\", \"value\": \"PREF_VALUE\"}]"
+            }
+          },
+          "450": {
+            "description": "INVALID_REQUEST"
+          },
+          "451": {
+            "description": "INVALID_PERMISSION"
+          },
+          "452": {
+            "description": "MISSING_EULA_AGREEMENT"
+          }
+        },
+        "produces": [
+          "application/json"
+        ],
+        "x-internal-toc-name": "get User Preferences"
+      }
+    }
+  },
+  "definitions": {
+    "Image": {
+      "example": "{\"owner_id\": \"00000000-0000-0000-0000-000000000000\", \"image_id\": \"11111111-1111-1111-1111-111111111111\"}"
+    },
+    "NewImage": {
+      "example": "{\"machine_id\": \"your machine identifier\", \"image_type\": \"vmrs\", \"region\": \"eastus\"}"
+    },
+    "ImageArtifact": {
+      "example": "{\"owner_id\": \"00000000-0000-0000-0000-000000000000\", \"image_id\": \"11111111-1111-1111-1111-111111111111\", \"filename\": \"report.json\"}"
+    },
+    "ImageUpdate": {
+      "example": "{\"owner_id\": \"00000000-0000-0000-0000-000000000000\", \"image_id\": \"11111111-1111-1111-1111-111111111111\", \"name\": \"my updated name\"}\n"
+    },
+    "SearchFitler": {
+      "example": "{\"search_filter\": \"only_my_images\"}"
+    },
+    "Preference": {
+      "example": "{\"PREF_NAME\": \"NEW_PREF_VALUE\"}"
+    },
+    "RemovePreference": {
+      "example": "[\"PREF_NAME_1\", \"PREF_NAME_2\"]"
+    }
+  },
+  "tags": [
+    "project-freta"
+  ],
+  "x-internal-service-id": "project-freta",
+  "x-internal-service-name": "Azure Project Freta",
+  "x-internal-sub-group-name": "",
+  "x-internal-toc-name": "get User Preferences",
+  "x-internal-product-uid": null,
+  "x-internal-split-type": "Operation",
+  "x-internal-operation-id": "getUserPreferences",
+  "x-internal-operation-name": "get User Preferences"
+}

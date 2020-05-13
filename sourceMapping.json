@@ -1,1 +1,18 @@
-{}
+{
+  "postAnalyzeImage/postAnalyzeImage.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L30",
+  "postDeleteImage/postDeleteImage.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L72",
+  "getRegions/getRegions.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L108",
+  "getImageFormats/getImageFormats.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L135",
+  "postGenerateUploadToken/postGenerateUploadToken.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L165",
+  "postGetArtifactUrl/postGetArtifactUrl.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L209",
+  "patchUpdateImageSettings/patchUpdateImageSettings.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L259",
+  "postGetImageDetails/postGetImageDetails.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L299",
+  "postListImages/postListImages.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L341",
+  "getListSearchFilters/getListSearchFilters.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L380",
+  "getCurrentVersions/getCurrentVersions.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L407",
+  "getUserPreferences/getUserPreferences.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L436",
+  "postUpdateUserPreferences/postUpdateUserPreferences.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L461",
+  "patchDeletePreference/patchDeletePreference.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L498",
+  "postListArtifacts/postListArtifacts.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L537",
+  "postCancelAnalysis/postCancelAnalysis.json": "https://github.com/rloutlaw/project-freta/blob/master/extra/swagger.json#L585"
+}
