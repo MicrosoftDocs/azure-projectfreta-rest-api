@@ -1,3 +1,3 @@
 # [Azure Project Freta](../index.md)
 
-Morning here , good lif.
+Morning here , good life.
