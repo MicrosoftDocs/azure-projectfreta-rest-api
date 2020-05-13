@@ -3,7 +3,6 @@
   "use_yaml_schema": false,
   "use_service_url_group": true,
   "is_operation_level": true,
-  "no_split_words": ["5c8fe61667cba5373e755068","5c8fedb22cc1b8528e03970e","5c9009669da88e9031e6ed54","5c900985592709ed54d0384d","5c90f2f789c74f7e9fb675a8","5ca61b631a1da001052c91b3","5ca78127daf0c17898067238","5cc37d7f91f680ac1998be38","5ca782c5213e4beda5936d75","5cfac241471c1ed50967a602", "5cfd57ac444b2041bbce899f","5d12363d1e30d5f3eb5d0ee2","5d14aeab44eec74ac5b54906","b7d52d97-6ce3-4119-80ed-abe032c2a343","5d31f3e37bfdab8ddee08e3e", "5d728c81e0c9017ba731775e"]
   "organizations": [{
       "services": [{
           "toc_title": "Azure Project Freta",
