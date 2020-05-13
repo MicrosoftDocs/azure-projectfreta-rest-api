@@ -1,6 +1,6 @@
 ### YamlMime:RESTOperation
 uid: freta.azure-api.net.freta.0.0.1.project-freta.preferences.deletepreferences
-name: delete Preferences
+name: Delete Preferences
 service: Azure Project Freta
 groupName: Preferences
 apiVersion: 0.0.1

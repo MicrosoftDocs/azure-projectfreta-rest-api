@@ -1,6 +1,6 @@
 ### YamlMime:RESTOperation
 uid: freta.azure-api.net.freta.0.0.1.project-freta.versions.getcurrentversion
-name: get Current Version
+name: Get Current Version
 service: Azure Project Freta
 groupName: Versions
 apiVersion: 0.0.1

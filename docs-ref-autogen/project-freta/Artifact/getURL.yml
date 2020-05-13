@@ -1,6 +1,6 @@
 ### YamlMime:RESTOperation
 uid: freta.azure-api.net.freta.0.0.1.project-freta.artifact.geturl
-name: get URL
+name: Get URL
 service: Azure Project Freta
 groupName: Artifact
 apiVersion: 0.0.1

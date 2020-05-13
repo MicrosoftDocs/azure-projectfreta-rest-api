@@ -1,6 +1,6 @@
 ### YamlMime:RESTOperation
 uid: freta.azure-api.net.freta.0.0.1.project-freta.search.listfilters
-name: list Filters
+name: List Filters
 service: Azure Project Freta
 groupName: Search
 apiVersion: 0.0.1

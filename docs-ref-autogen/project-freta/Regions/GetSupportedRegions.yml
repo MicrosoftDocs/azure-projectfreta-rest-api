@@ -1,6 +1,6 @@
 ### YamlMime:RESTOperation
-uid: freta.azure-api.net.freta.0.0.1.project-freta.regions.get
-name: Get
+uid: freta.azure-api.net.freta.0.0.1.project-freta.regions.getsupportedregions
+name: Get Supported Regions
 service: Azure Project Freta
 groupName: Regions
 apiVersion: 0.0.1

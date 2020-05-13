@@ -1,20 +1,20 @@
 ### YamlMime:RESTOperation
-uid: freta.azure-api.net.freta.0.0.1.project-freta.upload.generatetoken
-name: generate Token
+uid: freta.azure-api.net.freta.0.0.1.project-freta.image.list
+name: List
 service: Azure Project Freta
-groupName: Upload
+groupName: Image
 apiVersion: 0.0.1
-summary: Generate Upload Token
+summary: List Images
 consumes:
 - application/json
 produces:
 - application/json
 paths:
-- content: POST https://freta.azure-api.net/freta/0.0.1/get_upload_token
+- content: POST https://freta.azure-api.net/freta/0.0.1/list_images
 uriParameters: []
 responses:
 - name: 200 OK
-  description: SAS tokens for uploading an image and kernel profile
+  description: List of images
 - name: Other Status Codes
   description: INVALID_REQUEST
 - name: Other Status Codes

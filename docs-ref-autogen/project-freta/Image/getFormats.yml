@@ -1,6 +1,6 @@
 ### YamlMime:RESTOperation
 uid: freta.azure-api.net.freta.0.0.1.project-freta.image.getformats
-name: get Formats
+name: Get Formats
 service: Azure Project Freta
 groupName: Image
 apiVersion: 0.0.1

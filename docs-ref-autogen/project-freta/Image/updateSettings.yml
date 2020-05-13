@@ -1,6 +1,6 @@
 ### YamlMime:RESTOperation
 uid: freta.azure-api.net.freta.0.0.1.project-freta.image.updatesettings
-name: update Settings
+name: Update Settings
 service: Azure Project Freta
 groupName: Image
 apiVersion: 0.0.1

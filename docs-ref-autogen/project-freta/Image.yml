@@ -10,11 +10,13 @@ operations:
   summary: Cancel Analysis of an Image
 - uid: freta.azure-api.net.freta.0.0.1.project-freta.image.delete
   summary: Delete an image
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.generateuploadtoken
+  summary: Generate Upload Token
 - uid: freta.azure-api.net.freta.0.0.1.project-freta.image.getdetails
   summary: Get Image details
 - uid: freta.azure-api.net.freta.0.0.1.project-freta.image.getformats
   summary: Get image formats
-- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.listimages
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.image.list
   summary: List Images
 - uid: freta.azure-api.net.freta.0.0.1.project-freta.image.updatesettings
   summary: Update an image settings

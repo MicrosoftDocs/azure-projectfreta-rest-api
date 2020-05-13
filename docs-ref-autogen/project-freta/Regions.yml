@@ -4,5 +4,5 @@ name: Regions
 apiVersion: 0.0.1
 service: Azure Project Freta
 operations:
-- uid: freta.azure-api.net.freta.0.0.1.project-freta.regions.get
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.regions.getsupportedregions
   summary: regions

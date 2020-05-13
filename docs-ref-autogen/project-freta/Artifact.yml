@@ -6,3 +6,5 @@ service: Azure Project Freta
 operations:
 - uid: freta.azure-api.net.freta.0.0.1.project-freta.artifact.geturl
   summary: Get Artifact URL
+- uid: freta.azure-api.net.freta.0.0.1.project-freta.artifact.list
+  summary: "List Artifacts  \nGet Artifact URL"

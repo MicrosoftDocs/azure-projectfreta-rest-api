@@ -1,6 +1,6 @@
 ### YamlMime:RESTOperation
 uid: freta.azure-api.net.freta.0.0.1.project-freta.image.getdetails
-name: get Details
+name: Get Details
 service: Azure Project Freta
 groupName: Image
 apiVersion: 0.0.1

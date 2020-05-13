@@ -1,26 +1,32 @@
 ### YamlMime:RESTOperation
-uid: freta.azure-api.net.freta.0.0.1.project-freta.image.listimages
-name: list Images
+uid: freta.azure-api.net.freta.0.0.1.project-freta.artifact.list
+name: List
 service: Azure Project Freta
-groupName: Image
+groupName: Artifact
 apiVersion: 0.0.1
-summary: List Images
+summary: "List Artifacts  \nGet Artifact URL"
 consumes:
 - application/json
 produces:
 - application/json
 paths:
-- content: POST https://freta.azure-api.net/freta/0.0.1/list_images
+- content: POST https://freta.azure-api.net/freta/0.0.1/list_artifacts
 uriParameters: []
 responses:
 - name: 200 OK
-  description: List of images
+  description: URL to the artifact
 - name: Other Status Codes
   description: INVALID_REQUEST
 - name: Other Status Codes
   description: INVALID_PERMISSION
 - name: Other Status Codes
   description: MISSING_EULA_AGREEMENT
+- name: Other Status Codes
+  description: INVALID_IMAGE
+- name: Other Status Codes
+  description: ANALYSIS_NOT_COMPLETE
+- name: Other Status Codes
+  description: INVALID_ARTIFACT
 requestHeader: []
 definitions: []
 examples: []
