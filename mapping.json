@@ -1,6 +1,6 @@
 {
   "target_api_root_dir": "docs-ref-autogen",
-  "use_yaml_schema": false,
+  "use_yaml_schema": true,
   "use_service_url_group": true,
   "is_operation_level": true,
   "organizations": [{
